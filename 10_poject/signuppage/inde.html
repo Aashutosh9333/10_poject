@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <main class="signupform-container">
+        <div class="signup-form">
+            <h1>create your account</h1>
+
+            <form action="submit" id="signupForm">
+                <div class="form-group">
+                    <label for="fullname">Full Name</label>
+                    <input type="text"
+                    id="fullname"
+                    placeholder="enter your full name"
+                    autocomplete="name"
+                    required
+                    />
+
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email address</label>
+                    <input type="email"
+                    id="email"
+                    placeholder="Enter your email address"
+                    required
+                    />
+
+                </div>
+
+                <div class="form-group">
+                    <label for="password">password</label>
+                    <input type="password"
+                    id="password"
+                    placeholder="create password"
+                    autocomplete="new new-password"
+                    required
+                    />
+                    <button type="button" class="toggle-password" data-target="password">Show</button>
+
+                </div>
+                <div class="strength-track">
+                    <div id="strengthbar">
+
+                    </div>
+                    <small id="strengthText"></small>
+                </div>
+            </form>
+        </div>
+
+    </main>
+    
+</body>
+</html>
